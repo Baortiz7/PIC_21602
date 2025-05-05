@@ -1,5 +1,5 @@
-## UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-# Nombre: Bryan Ortiz
+# UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+### Nombre: Bryan Ortiz
 
 # Galería de Imágenes Dinámica
 

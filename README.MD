@@ -15,18 +15,13 @@ Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript 
 
 ## Estructura del Proyecto
 
-```
-/
+//
 ├── index.html             # Archivo HTML mínimo para la página principal
-├── register.html          # Archivo HTML mínimo para la página de registro
+├── agregar.html           # Archivo HTML mínimo para la página de registro
 ├── js/
-│   ├── main.js            # Lógica principal y punto de entrada
-│   ├── components.js      # Componentes reutilizables (header, footer, sidebar)
-│   ├── gallery.js         # Funciones para la galería de imágenes
-│   └── form.js            # Funciones para la página de registro
-└── css/
-    └── styles.js          # Estilos definidos en JavaScript
-```
+│   ├── galeria.js         # Lógica de la página principal y galería
+│   └── agregar.js         # Lógica para la página de registro de fotografías
+└── README.md              # Este archivo
 
 ## Funcionalidades
 
@@ -43,10 +38,10 @@ Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript 
 
 ## Instrucciones de Ejecución
 
-1. **Clonar el repositorio**:
+1. **Clonar el repositorio o descargar desde el repositorio**:
    ```
-   git clone https://github.com/tu-usuario/galeria-imagenes-dinamica.git
-   cd galeria-imagenes-dinamica
+   git clone https://github.com/Baortiz7/PIC_21602.git
+   
    ```
 
 2. **Abrir el proyecto**:
@@ -79,5 +74,3 @@ Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript 
 - **Estilos**: Aplicados mediante inserción dinámica de reglas CSS
 
 ---
-
-Proyecto desarrollado para la materia "Programación Integrativa de Componentes".

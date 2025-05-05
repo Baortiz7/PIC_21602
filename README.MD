@@ -13,15 +13,6 @@ Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript 
 - **Estilos CSS dinámicos**: Aplicados mediante JavaScript
 - **JavaScript moderno**: Uso de ES6+ (arrow functions, let/const, template literals, etc.)
 
-## Estructura del Proyecto
-
-//
-├── index.html             # Archivo HTML mínimo para la página principal
-├── agregar.html           # Archivo HTML mínimo para la página de registro
-├── js/
-│   ├── galeria.js         # Lógica de la página principal y galería
-│   └── agregar.js         # Lógica para la página de registro de fotografías
-└── README.md              # Este archivo
 
 ## Funcionalidades
 

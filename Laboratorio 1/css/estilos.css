@@ -1,0 +1,234 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2e9e4;
+    color: #22223b;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #9a8c98;
+    color: #f2e9e4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #4a4e69;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el menú lateral */
+aside {
+    width: 180px;
+    background-color: #4a4e69;
+    padding: 20px;
+    color: #f2e9e4;
+}
+
+aside h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #9a8c98;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #f2e9e4;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-align: center;
+    background-color: #9a8c98;
+}
+
+aside ul li a:hover {
+    background-color: #c9ada7;
+    color: #22223b;
+    transform: translateX(5px);
+}
+
+/* Estilos para la sección principal */
+main {
+    flex: 1;
+    padding: 25px;
+    background-color: #f8f8f2;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 0 0 0 20px;
+}
+
+main h2 {
+    color: #22223b;
+    border-bottom: 3px solid #9a8c98;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Estilos para la galería de imágenes */
+.contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.tarjeta-imagen {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #e6e6e6;
+}
+
+.tarjeta-imagen:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta-imagen img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid #9a8c98;
+}
+
+.tarjeta-imagen p {
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #22223b;
+    background-color: #f2e9e4;
+}
+
+/* Estilos para el formulario */
+.formulario-agregar {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.formulario-agregar::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(135deg, #9a8c98, #4a4e69);
+    z-index: -1;
+    border-radius: 18px;
+    opacity: 0.8;
+}
+
+.campo-formulario {
+    margin-bottom: 25px;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #22223b;
+    font-size: 16px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #c9ada7;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.campo-formulario input:focus {
+    outline: none;
+    border-color: #4a4e69;
+    box-shadow: 0 0 0 2px rgba(74, 78, 105, 0.2);
+}
+
+.formulario-agregar button {
+    background-color: #4a4e69;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.formulario-agregar button:hover {
+    background-color: #22223b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-agregar button:active {
+    transform: translateY(0);
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #22223b;
+    color: #f2e9e4;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 5px solid #9a8c98;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    /* Cambiar a layout vertical en dispositivos pequeños */
+    body > div {
+        flex-direction: column;
+    }
+    
+    aside {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .contenedor-galeria {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+    
+    .formulario-agregar {
+        padding: 20px;
+    }
+    
+    main {
+        border-radius: 0;
+    }
+}

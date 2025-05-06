@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para crear el pie de página
     const crearPiePagina = () => {
         const pie = document.createElement('footer');
-        pie.innerHTML = '<p>&copy; 2025 - Fotografías y Recuerdos</p>';
+        pie.innerHTML = '<p>&copy; 21602-PROGRAM INTEGRATIVA DE COMPONE</p>';
         pie.style.backgroundColor = '#22223b';
         pie.style.color = '#f2e9e4';
         pie.style.padding = '15px';

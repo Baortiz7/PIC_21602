@@ -3,8 +3,6 @@
 
 # Galería de Imágenes Dinámica
 
-Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript moderno (ES6+). Toda la estructura del sitio, incluyendo la galería de imágenes, es generada dinámicamente sin utilizar HTML estático.
-
 ## Características
 
 - **Generación dinámica**: Todo el HTML es creado mediante JavaScript
@@ -43,12 +41,6 @@ Este proyecto demuestra la manipulación avanzada del DOM utilizando JavaScript 
    - Para agregar una nueva imagen, haz clic en "Registrar nueva imagen" en la barra lateral
    - Completa el formulario con una URL válida de imagen y una descripción
    - Al enviar el formulario, volverás automáticamente a la galería donde verás tu nueva imagen
-
-## Requisitos Técnicos
-
-- Navegador moderno con soporte para ES6+
-- JavaScript habilitado
-- Conexión a internet para cargar imágenes desde URLs externas
 
 ## Tecnologías Utilizadas
 
